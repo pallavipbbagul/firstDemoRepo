@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-04T12:22:05 IST" name="myAutomationArchitech" finished-at="2023-12-04T12:22:21 IST" duration-ms="16463">
+    <groups>
+    </groups>
+    <test started-at="2023-12-04T12:22:05 IST" name="BankManagerLoginTest" finished-at="2023-12-04T12:22:13 IST" duration-ms="8139">
+      <class name="com.project1.testcases.BankManagerLoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project1.testcases.BankManagerLoginTest@359df09a]" started-at="2023-12-04T12:22:05 IST" name="setup" finished-at="2023-12-04T12:22:05 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="lunchBrowser()[pri:0, instance:com.project1.testcases.BankManagerLoginTest@359df09a]" started-at="2023-12-04T12:22:05 IST" name="lunchBrowser" finished-at="2023-12-04T12:22:12 IST" duration-ms="6874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchBrowser -->
+        <test-method signature="loginAsBankManager()[pri:1, instance:com.project1.testcases.BankManagerLoginTest@359df09a]" started-at="2023-12-04T12:22:12 IST" name="loginAsBankManager" finished-at="2023-12-04T12:22:13 IST" duration-ms="1192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsBankManager -->
+      </class> <!-- com.project1.testcases.BankManagerLoginTest -->
+    </test> <!-- BankManagerLoginTest -->
+    <test started-at="2023-12-04T12:22:13 IST" name="AddCustTest" finished-at="2023-12-04T12:22:21 IST" duration-ms="8284">
+      <class name="com.project1.testcases.AddCustomer">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project1.testcases.AddCustomer@f1da57d]" started-at="2023-12-04T12:22:13 IST" name="setup" finished-at="2023-12-04T12:22:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="lunchBrowser()[pri:0, instance:com.project1.testcases.AddCustomer@f1da57d]" started-at="2023-12-04T12:22:13 IST" name="lunchBrowser" finished-at="2023-12-04T12:22:15 IST" duration-ms="2320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchBrowser -->
+        <test-method signature="clickBankManagerLogin()[pri:1, instance:com.project1.testcases.AddCustomer@f1da57d]" started-at="2023-12-04T12:22:15 IST" name="clickBankManagerLogin" finished-at="2023-12-04T12:22:17 IST" duration-ms="1205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickBankManagerLogin -->
+        <test-method signature="clickonAddCustomer()[pri:2, instance:com.project1.testcases.AddCustomer@f1da57d]" started-at="2023-12-04T12:22:17 IST" name="clickonAddCustomer" finished-at="2023-12-04T12:22:19 IST" duration-ms="2239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonAddCustomer -->
+        <test-method signature="addCustomerDetails()[pri:3, instance:com.project1.testcases.AddCustomer@f1da57d]" started-at="2023-12-04T12:22:19 IST" name="addCustomerDetails" finished-at="2023-12-04T12:22:21 IST" duration-ms="2466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerDetails -->
+      </class> <!-- com.project1.testcases.AddCustomer -->
+    </test> <!-- AddCustTest -->
+  </suite> <!-- myAutomationArchitech -->
+</testng-results>

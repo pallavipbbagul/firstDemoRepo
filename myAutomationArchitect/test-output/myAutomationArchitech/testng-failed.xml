@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [myAutomationArchitech]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="BankManagerLoginTest(failed)">
+    <classes>
+      <class name="com.project1.testcases.BankManagerLoginTest">
+        <methods>
+          <include name="loginAsBankManager"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.project1.testcases.BankManagerLoginTest -->
+    </classes>
+  </test> <!-- BankManagerLoginTest(failed) -->
+</suite> <!-- Failed suite [myAutomationArchitech] -->
