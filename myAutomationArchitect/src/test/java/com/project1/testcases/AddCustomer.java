@@ -29,6 +29,8 @@ public class AddCustomer extends TestBaseForAllClasses{
 	public void setup() {
 		if (fis == null) {
 			try {
+				//System.out.println("Modified the AddCustomer Class");
+				System.out.println("Modified the Addcustomer for the feature2 branch changes");
 				FileInputStream fis = new FileInputStream(
 						(System.getProperty("user.dir")) + "\\src\\test\\resources\\Properties\\config.properties");
 				config.load(fis);
